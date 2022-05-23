@@ -1,11 +1,19 @@
-.App {
-  text-align: center;
+.App{
+  background: rgb(200,174,100);
+  background: linear-gradient(90deg, rgba(200,174,100,1) 0%, rgba(235,46,75,1) 100%); 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Container{
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  padding: 0 1em;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

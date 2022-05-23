@@ -23,7 +23,10 @@ const Card = () => {
       <div className={style.content}>
         <h1 className={style.title}>Converter</h1>
 
+      <div className={style.form}>
+
         <div className={style.inputWrapper}>
+          <label className={style.label}>Inch</label>
           <input
             type="number"
             className={style.input}
@@ -32,7 +35,10 @@ const Card = () => {
             onChange={(e)=> setInchValue(parseFloat(e.target.value)) }
             onKeyUp={inchCalc}
           />
+        </div>
 
+        <div className={style.inputWrapper}>
+          <label className={style.label}>Centimeter</label>
           <input 
             type="number"
             className={style.input}
@@ -41,6 +47,7 @@ const Card = () => {
             onChange={(e)=> setCentimeterValue(parseFloat(e.target.value)) }
             onKeyUp={cmCalc}
           />
+        </div>
 
         </div>
       </div>

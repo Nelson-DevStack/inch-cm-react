@@ -11,16 +11,22 @@
   flex-direction: column;
   align-items: center;
   padding: 2em;
-  /* justify-content: center; */
 }
 
 .title{
   font-weight: 500;
 }
 
+.desc{
+  line-height: 1.4em;
+  margin: 10px auto;
+  max-width: 45ch;
+}
+
 .form{
   display: flex;
-  height: 70%;
+  flex-direction: column;
+  margin-top: 1em;
   justify-content: center;
   align-items: center;
 }
@@ -43,4 +49,10 @@
   border-radius: 5px;
   border: 1px solid #c1c1c1;
   font-size: 1em;
+}
+
+@media screen and (min-width: 768px){
+  .form{
+    flex-direction: row;
+  }
 }

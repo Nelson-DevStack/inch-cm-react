@@ -3,6 +3,7 @@
 
 ## Techs
 - React.js & HTML
+- Vite
 - CSS
 - TypeScript
 - JavaScript
